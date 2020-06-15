@@ -159,3 +159,35 @@ summary:focus{
     text-align: center;
 }
 
+.h1{
+    font-size: 3.4em;
+}
+.h2{
+    font-size: 2.4em;
+}
+.h1 + .title__description{
+    margin-top: -1.5em;
+}
+.title__description{
+    line-height: 1.5;
+}
+.checklist{
+    padding: 0;
+    list-style: none;
+}
+.checklist__item{
+    margin-bottom: 1.5em;
+}
+.checklist__check{
+    vertical-align: middle;
+}
+.cehcklist__label{
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.cehcklist__description{
+    margin-top: 0;
+    padding-left: 24px;
+}
