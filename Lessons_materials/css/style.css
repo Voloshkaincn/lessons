@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: calc(80% - 30px);
+    min-width: 300px;
+    margin: 0 auto;
+}
+.h1{
+    font-size: 2.5em;
+}
+.h2{
+    font-size: 2em;
+}
+.checklist{
+    padding: 0;
+list-style: none;
+}
+.checklist__item{
+    margin-bottom: 1.5em;
+}
+.cehcklist__label{
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cehcklist__description{
+    margin-top: 0;
+    padding-left: 24px;
+}
