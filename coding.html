@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coding</title>
+</head>
+
+<body>
+    <!-- <header class="header">
+        <div class="container">
+            <nav class="header__nav nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#imageError" class="nav__link">Картинки</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header> -->
+    <main class="main">
+        <div class="container">
+            <h1 class="h1">Как ускорить кодинг</h1>
+            <img src="img/coding.jpg" alt="image coding">
+        </div>
+        <section class="section" id="imageError">
+            <div class="container">
+                <h2 class="h2">Фрагменты кода</h2>
+                <div class="title__description"><b>Фрагменты кода</b> — это небольшие блоки многократно используемого
+                    кода, которые можно вставлять в файл кода с помощью команды контекстного меню или сочетания клавиш.
+                </div>
+                <p>Для добавление своих фрагментов кода в Visual Studio, перейдите во вкладку "пользовательские
+                    фрагменты кода" которая находится в настройках.</p>
+                <img src="img/Screenshot_3.jpg" alt="screenshot">
+                <p>В появившемся окне выбираем язык кода, для которого будет создан фрагмент</p>
+                <img class="img_md" src="img/Screenshot_1.jpg" alt="screenshot">
+                <p>Между фигурными скобками помещаем код снипета. Каждый снипет должен иметь уникальное название,
+                    префикс, тело и описание. Префикс используется для вызова этого снипета (фрагмента кода). В снипете
+                    можно использовать переменные $1, $2, переход по которым совершается табами. </p>
+                <p>Вот пример фрагмента кода (снипета)который ускоряет написание медиа запроса</p>
+                <pre>
+<code>
+    "Media queries": {
+        "prefix": "@maxw",
+        "body": [
+            "@media(max-width: $1px){",
+            " $0",
+            "}"
+        ],
+        "description": "Media queries description"
+    }
+</code>
+                </pre>
+                <p>Теперь, при вводе в файле scss короткого <b>@maxw </b> мы быстро получаем шаблон медиа запроса</p>
+            </div>
+        </section>
+
+    </main>
+
+
+
+</body>
+
+</html>
